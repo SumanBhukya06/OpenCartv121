@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+           <!-- <include name="Sanity"/>
+            <include name="Regression"/>-->
+            <include name="Master"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="Account Registration Test" verbose="2" preserve-order="true">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.TC_002_LoginTest"/>
+            <!--<class name="testCases.TC_003_LoginDDT"/>-->
+        </classes>
+    </test>
+</suite>

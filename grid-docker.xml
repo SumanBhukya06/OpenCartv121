@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="Account Registration" verbose="2" preserve-order="true">
+        <parameter name="os" value="linux"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.TC_002_LoginTest"/>
+            <class name="testCases.TC_005_SearchTest"/>
+            <!--<class name="testCases.TC_003_LoginDDT"/>-->
+            <!--<class name="testCases.TC_004_LogoutTest"/>-->
+            <!--class name="testCases.TC_LG_002"/>-->
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="Account Registration Test" verbose="2" preserve-order="true">
+        <parameter name="os" value="linux"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.TC_002_LoginTest"/>
+            <class name="testCases.TC_005_SearchTest"/>
+            <!--<class name="testCases.TC_003_LoginDDT"/>-->
+            <!--<class name="testCases.TC_004_LogoutTest"/>-->
+            <!--<class name="testCases.TC_LG_002"/>-->
+        </classes>
+    </test>
+</suite>
