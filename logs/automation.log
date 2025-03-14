@@ -1,122 +1,37 @@
-11:19:36.117 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-11:22:23.482 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:03:10.277 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:03:10.930 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:03:11.512 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:03:38.879 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:03:39.601 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:03:40.141 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:15:48.182 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:15:49.188 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:15:49.677 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:32:54.328 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-12:32:54.505 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-12:32:55.411 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-12:32:56.635 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-12:33:09.115 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-12:33:09.393 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-12:33:10.307 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-12:33:11.286 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-12:33:11.838 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-12:33:22.038 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:33:24.056 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:33:24.914 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-12:33:43.036 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-12:33:43.042 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-12:33:43.328 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-12:33:43.692 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-12:33:43.791 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-13:02:52.777 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-13:02:54.818 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-13:02:55.670 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-13:03:47.527 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-13:03:49.211 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-13:03:49.956 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-14:21:48.898 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-14:21:49.587 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-14:21:50.063 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest**
-14:46:37.669 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:46:38.249 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:46:38.264 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:46:38.651 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:46:38.653 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:46:39.037 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:48:33.620 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-14:48:34.099 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-15:05:04.760 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-15:05:04.788 [main] INFO  testCases.TC_005_SearchTest - Clicked on search text box
-15:05:04.941 [main] INFO  testCases.TC_005_SearchTest - Clicked on search button
-15:05:05.256 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-15:09:49.218 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest started**
-15:09:50.371 [main] INFO  testCases.TC_005_SearchTest - verify search box ended
-15:09:50.398 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest started**
-15:09:51.364 [main] INFO  testCases.TC_005_SearchTest - verify search box ended
-15:09:51.370 [main] INFO  testCases.TC_005_SearchTest - **TC_005_SearchTest started**
-15:09:52.312 [main] INFO  testCases.TC_005_SearchTest - verify search box ended
-15:09:52.333 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-15:09:52.347 [main] INFO  testCases.TC_005_SearchTest - Clicked on search text box
-15:09:52.606 [main] INFO  testCases.TC_005_SearchTest - Clicked on search button
-15:09:53.072 [main] INFO  testCases.TC_005_SearchTest - **verify without product name ended**
-16:00:12.191 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-16:00:12.224 [main] INFO  testCases.TC_005_SearchTest - Clicked on search text box
-16:00:12.459 [main] INFO  testCases.TC_005_SearchTest - Clicked on search button
-16:00:12.905 [main] INFO  testCases.TC_005_SearchTest - **verify without product name ended**
-16:00:13.228 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:00:14.323 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:00:15.405 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:06:51.053 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-16:06:51.084 [main] INFO  testCases.TC_005_SearchTest - Clicked on search text box
-16:06:51.259 [main] INFO  testCases.TC_005_SearchTest - Clicked on search button
-16:06:51.657 [main] INFO  testCases.TC_005_SearchTest - **verify without product name ended**
-16:06:51.935 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:06:52.747 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:06:53.533 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:13:14.161 [main] INFO  testCases.TC_005_SearchTest - **verify without productname started**
-16:13:14.205 [main] INFO  testCases.TC_005_SearchTest - Clicked on search text box
-16:13:14.534 [main] INFO  testCases.TC_005_SearchTest - Clicked on search button
-16:13:14.888 [main] INFO  testCases.TC_005_SearchTest - **verify without product name ended**
-16:13:15.188 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:13:15.999 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:13:17.029 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:18:46.368 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:18:47.422 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-16:18:48.428 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:19:11.786 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:19:12.915 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:19:23.828 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-21:03:00.144 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-21:03:00.188 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-21:03:00.391 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-21:03:01.212 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-21:03:08.090 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-21:03:08.102 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-21:03:08.378 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-21:03:08.981 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-21:03:09.137 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-21:04:29.143 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-21:04:29.181 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-21:04:29.277 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-21:04:30.129 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-21:04:36.683 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-21:04:36.695 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-21:04:36.802 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-21:04:37.373 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-21:04:37.509 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-22:00:09.068 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-22:00:09.130 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-22:00:09.272 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-22:00:10.406 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-22:00:16.483 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-22:00:16.493 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-22:00:16.667 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-22:00:17.192 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-22:00:17.353 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-22:01:33.294 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-22:01:33.347 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-22:01:33.459 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-22:01:34.360 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-22:01:40.040 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-22:01:40.050 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-22:01:40.282 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-22:01:40.771 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-22:01:40.923 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
+17:35:25.377 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
+17:35:25.478 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
+17:35:25.778 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
+17:35:26.278 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
+17:35:29.963 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
+17:35:29.990 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
+17:35:30.135 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
+17:35:30.409 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
+17:35:30.577 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
+17:35:34.194 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
+17:35:35.321 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
+17:37:02.253 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
+17:37:02.320 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
+17:37:02.488 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
+17:37:02.913 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
+17:37:06.104 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
+17:37:06.162 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
+17:37:06.294 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
+17:37:06.581 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
+17:37:06.709 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
+17:37:11.630 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
+17:37:12.801 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
+17:37:13.973 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
+17:43:03.770 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
+17:43:03.809 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
+17:43:03.943 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
+17:43:04.236 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
+17:43:04.390 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
+17:43:37.162 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
+17:43:37.198 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
+17:43:37.976 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
+17:43:38.536 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
+17:43:42.787 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
+17:43:42.799 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
+17:43:43.766 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
+17:43:44.127 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
+17:43:44.340 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
