@@ -14,7 +14,7 @@
             <!--<class name="testCases.TC_004_LogoutTest"/>-->
             <!--<class name="testCases.TC_LG_002"/>-->
             <!--<class name="testCases.TC_005_SearchTest"/>-->
-           <!--<class name="testCases.Register.TC_RF_003"/>
+           <class name="testCases.Register.TC_RF_003"/>
             <class name="testCases.Register.TC_RF_004"/>
             <class name="testCases.Register.TC_RF_005"/>
             <class name="testCases.Register.TC_RF_006"/>
@@ -23,7 +23,7 @@
             <class name="testCases.Register.TC_RF_009"/>
             <class name="testCases.Register.TC_RF_009"/>
             <class name="testCases.Register.TC_RF_010"/>
-            <class name="testCases.Register.TC_RF_011"/>-->
+            <class name="testCases.Register.TC_RF_011"/>
             <class name="testCases.Register.TC_RF_012"/>
 
         </classes>
