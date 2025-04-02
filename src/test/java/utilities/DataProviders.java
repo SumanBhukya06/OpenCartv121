@@ -89,13 +89,16 @@ public class DataProviders {
         int totalrows=xlutil.getRowCount("Sheet1");
         int totalcols=xlutil.getCellCount("Sheet1",1);
 
-        String InvalidEmailData[][]=new String[totalrows][totalcols];//created for two dimension array which can store the data user and password
+        String InvalidEmailData[][]=new String[totalrows][totalcols-1];//created for two dimension array which can store the data user and password
 
         for(int i=1;i<=totalrows;i++)  //1   //read the data from xl storing in two deminsional array
         {
+            int newColIndex=0;//track new col index after skipping
             for(int j=0;j<totalcols;j++)  //0    i is rows j is col
             {
-                InvalidEmailData[i-1][j]= xlutil.getCellData("Sheet1",i, j);  //1,0
+                if (j==1) continue;
+                InvalidEmailData[i-1][newColIndex]= xlutil.getCellData("Sheet1",i, j);//1,0
+                newColIndex++;
             }
         }
         return InvalidEmailData;//returning two dimension array
