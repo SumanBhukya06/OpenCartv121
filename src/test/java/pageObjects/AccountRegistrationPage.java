@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -70,6 +71,35 @@ public class AccountRegistrationPage extends BasePage {
     @FindBy(xpath = "//div[@class='text-danger']")
     WebElement confirm_pwd_text_danger;
 
+    @FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+    WebElement emailExistTextDanger;
+
+    @FindBy(xpath = "//input[@id='input-firstname']")
+    WebElement setTxtFirstName1;
+
+    @FindBy(xpath = "//input[@id='input-lastname']")
+    WebElement setTxtLastName1;
+
+    @FindBy(xpath = "//input[@id='input-email']")
+    WebElement setTxtEmail1;
+
+    @FindBy(xpath = "//input[@id='input-telephone']")
+    WebElement setTxtTelephone1;
+
+    @FindBy(xpath = "//input[@id='input-password']")
+    WebElement setTxtPassword1;
+
+    @FindBy(xpath = "//input[@id='input-confirm']")
+    WebElement setTxtConfirmPassword1;
+
+    @FindBy(xpath = "//label[normalize-space()='Yes']")
+    WebElement setClkSubscribe1;
+
+    @FindBy(xpath = "//input[@name='agree']")
+    WebElement setClkAgree1;
+
+    @FindBy(xpath = "//input[@type='submit']")
+    WebElement BtnContinue1;
 
     //Action Methods
     public void setTxtFirstName(String fname) {
@@ -81,10 +111,11 @@ public class AccountRegistrationPage extends BasePage {
     }
 
     public void setTxtEmail(String email) {
-        txtEmail.sendKeys(email);
+            txtEmail.clear(); // Clear any existing value
+            txtEmail.sendKeys(email); // Enter email
     }
-
     public void setTxtTelephone(String telephone) {
+        txtTelephone.clear();
         txtTelephone.sendKeys(telephone);
     }
 
@@ -147,5 +178,48 @@ public class AccountRegistrationPage extends BasePage {
 
     public boolean isTextDangerPwdMismatchDisplayed(){
         return confirm_pwd_text_danger.isDisplayed();
+    }
+
+    public boolean isTextDangerEmailExistsIsDisplayed(){
+        return emailExistTextDanger.isDisplayed();
+    }
+    public String getEmailValidationMessage() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        return (String) js.executeScript("return arguments[0].validationMessage;", txtEmail);
+    }
+
+    public String getPhoneNumberValidationMessage(){
+        JavascriptExecutor js=(JavascriptExecutor) driver;
+        return (String) js.executeScript("return arguments[0].validationMessage;",txtTelephone);
+    }
+
+    public WebElement setTxtFirstNameKey() {
+        return setTxtFirstName1;
+    }
+
+    public WebElement setTxtLastNameKey(){
+        return setTxtLastName1;
+    }
+
+    public WebElement setTxtEmail1(){
+        return setTxtEmail1;
+    }
+    public WebElement setTxtTelephone1(){
+        return setTxtTelephone1;
+    }
+    public WebElement setTxtPassword1(){
+        return setTxtPassword1;
+    }
+    public WebElement setTxtConfirmPassword1(){
+        return setTxtConfirmPassword1;
+    }
+    public WebElement ClkSubscribe1(){
+        return setClkSubscribe1;
+    }
+    public WebElement ClkAgree1(){
+        return setClkAgree1;
+    }
+    public WebElement BtnContinue1(){
+        return BtnContinue1;
     }
 }

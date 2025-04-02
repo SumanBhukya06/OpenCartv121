@@ -10,7 +10,7 @@ public class TC_RF_008 extends BaseClass {
 
     @Test
     public void verify_password_field_entering_different_pwd() {
-        logger.info("**TC_RF_003 test case started..**");
+        logger.info("**TC_RF_008 test case started..**");
         try {
             HomePage hp = new HomePage(driver);
             hp.setLnkMyaccount();
@@ -33,7 +33,7 @@ public class TC_RF_008 extends BaseClass {
             logger.error("Test case failed due to " + e.getMessage());
             Assert.fail("Test case failed due to an exception");
         }
-        logger.info("**TC_RF_003 test case ended..**");
+        logger.info("**TC_RF_008 test case ended..**");
     }
 }
 

@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_RF_006 extends BaseClass {
     @Test
     public void verify_Registering_when_no_option_selected_Newsletter_field() {
-        logger.info("**TC_RF_005 test case started..**");
+        logger.info("**TC_RF_006 test case started..**");
         try {
             HomePage hp = new HomePage(driver);
             hp.setLnkMyaccount();
@@ -54,7 +54,7 @@ public class TC_RF_006 extends BaseClass {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        logger.info("**TC_RF_005 test case ended..**");
+        logger.info("**TC_RF_006 test case ended..**");
     }
 }
 

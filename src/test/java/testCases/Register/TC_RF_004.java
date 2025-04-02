@@ -41,7 +41,8 @@ public class TC_RF_004 extends BaseClass {
             Assert.assertTrue(arp.getPolicyDes(),actual_policyDes);
         }
         catch (Exception e){
-            e.printStackTrace();
+            logger.error("test case failed due to an issue occur: "+e.getMessage());
+            Assert.fail("Test case failed due an error");
         }
     }
 }
