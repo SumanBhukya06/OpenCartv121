@@ -1,37 +1,4 @@
-17:35:25.377 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-17:35:25.478 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-17:35:25.778 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-17:35:26.278 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-17:35:29.963 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-17:35:29.990 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-17:35:30.135 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-17:35:30.409 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-17:35:30.577 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-17:35:34.194 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:35:35.321 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:37:02.253 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-17:37:02.320 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-17:37:02.488 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-17:37:02.913 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-17:37:06.104 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-17:37:06.162 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-17:37:06.294 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-17:37:06.581 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-17:37:06.709 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-17:37:11.630 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:37:12.801 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:37:13.973 [main] INFO  testCases.TC_005_SearchTest - **verify_search_using_description test started**
-17:43:03.770 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-17:43:03.809 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-17:43:03.943 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-17:43:04.236 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-17:43:04.390 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
-17:43:37.162 [main] INFO  testCases.TC_001_AccountRegistarionTest - *** TC_001_AccountRegistarionTest started....***
-17:43:37.198 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on my account....***
-17:43:37.976 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***clicked on register....***
-17:43:38.536 [main] INFO  testCases.TC_001_AccountRegistarionTest - ***New customer details....***
-17:43:42.787 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest started***
-17:43:42.799 [main] INFO  testCases.TC_002_LoginTest - ***clicked on my account***
-17:43:43.766 [main] INFO  testCases.TC_002_LoginTest - ***clicked on login
-17:43:44.127 [main] INFO  testCases.TC_002_LoginTest - *** entered email***
-17:43:44.340 [main] INFO  testCases.TC_002_LoginTest - *** entered password***
+10:19:31.007 [main] INFO  testCases.Register.TC_RF_007 - **TC_RF_007 test case started..**
+10:21:59.749 [main] INFO  testCases.Register.TC_RF_007 - **TC_RF_007 test case started..**
+10:33:53.138 [main] INFO  testCases.Register.TC_RF_008 - **TC_RF_003 test case started..**
+10:33:55.937 [main] INFO  testCases.Register.TC_RF_008 - **TC_RF_003 test case ended..**

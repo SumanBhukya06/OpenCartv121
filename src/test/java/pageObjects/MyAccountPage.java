@@ -20,6 +20,12 @@ public class MyAccountPage extends BasePage{
     @FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")
     WebElement myALogout;
 
+    @FindBy(xpath = "//a[normalize-space()='Subscribe / unsubscribe to newsletter']")
+    WebElement btn_subscribe_Unsubscribe;
+
+    @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+    WebElement subscription_des;
+
 
     public boolean isMyAccountPageExits(){
         try {
@@ -40,5 +46,13 @@ public class MyAccountPage extends BasePage{
 
     public void setLnklogout(){
         lnklogout.click();
+    }
+
+    public void setBtn_subscribe_Unsubscribe(){
+        btn_subscribe_Unsubscribe.click();
+    }
+
+    public boolean getSubscriptionIsDisplayed(){
+        return subscription_des.isDisplayed();
     }
 }

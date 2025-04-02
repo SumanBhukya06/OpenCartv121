@@ -8,12 +8,18 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.TC_001_AccountRegistarionTest"/>
-            <class name="testCases.TC_002_LoginTest"/>
+           <!-- <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.TC_002_LoginTest"/>-->
             <!--<class name="testCases.TC_003_LoginDDT"/>-->
             <!--<class name="testCases.TC_004_LogoutTest"/>-->
             <!--<class name="testCases.TC_LG_002"/>-->
             <!--<class name="testCases.TC_005_SearchTest"/>-->
+           <class name="testCases.Register.TC_RF_003"/>
+            <class name="testCases.Register.TC_RF_004"/>
+            <class name="testCases.Register.TC_RF_005"/>
+            <class name="testCases.Register.TC_RF_006"/>
+            <class name="testCases.Register.TC_RF_007"/>
+            <class name="testCases.Register.TC_RF_008"/>
         </classes>
     </test>
 </suite>

@@ -19,6 +19,14 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//input[@value='Login']")
     WebElement btnLogin;
 
+    //new customer continue
+    @FindBy(xpath = "//a[normalize-space()='Continue']")
+    WebElement new_cus_continue_btn;
+
+    //register button from right column
+    @FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Register']")
+    WebElement register_btn_right_col;
+
     //Action Methods
     public void setLoginEmail(String lemail){
         loginEmail.sendKeys(lemail);
@@ -29,6 +37,14 @@ public class LoginPage extends BasePage {
 
     public void setBtnLogin(){
         btnLogin.click();
+    }
+
+    public void setNew_cus_continue_btn(){
+        new_cus_continue_btn.click();
+    }
+
+    public void setRegister_btn_right_col(){
+        register_btn_right_col.click();
     }
 
 }
