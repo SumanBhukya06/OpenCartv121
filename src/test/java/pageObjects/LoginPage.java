@@ -27,6 +27,14 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Register']")
     WebElement register_btn_right_col;
 
+    //Mismatch text of email and password
+    @FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+    WebElement isNoMatchEmailPasswordTextDisplayed;
+
+    //Forgotten password link
+    @FindBy(xpath = "//div[@class='form-group']//a[normalize-space()='Forgotten Password']")
+    WebElement isForgottenPasswordDisplayed;
+
     //Action Methods
     public void setLoginEmail(String lemail){
         loginEmail.sendKeys(lemail);
@@ -47,4 +55,28 @@ public class LoginPage extends BasePage {
         register_btn_right_col.click();
     }
 
+    public boolean isNoMatchEmailPassWordDisplayed(){
+        return isNoMatchEmailPasswordTextDisplayed.isDisplayed();
+    }
+
+    //forgotten password link
+    public boolean isForgottenPwdDisplayed(){
+        if (isForgottenPasswordDisplayed.isDisplayed()){
+            isForgottenPasswordDisplayed.click();
+            return true;
+        }else {
+            return false;
+        }
+    }
+    public WebElement LoginEmailKey(){
+        return loginEmail;
+    }
+
+    public WebElement LoginPassWordKey(){
+        return loginpassword;
+    }
+
+    public WebElement LoginButtonKey(){
+       return btnLogin;
+    }
 }

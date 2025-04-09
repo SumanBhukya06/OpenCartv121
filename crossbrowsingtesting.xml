@@ -9,7 +9,23 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.Register.TC_RF_003"/>
+            <class name="testCases.Register.TC_RF_004"/>
+            <class name="testCases.Register.TC_RF_005"/>
+            <class name="testCases.Register.TC_RF_006"/>
+            <class name="testCases.Register.TC_RF_007"/>
+            <class name="testCases.Register.TC_RF_008"/>
+            <class name="testCases.Register.TC_RF_009"/>
+            <class name="testCases.Register.TC_RF_009"/>
+            <class name="testCases.Register.TC_RF_010"/>
+            <class name="testCases.Register.TC_RF_011"/>
+            <class name="testCases.Register.TC_RF_012"/>
+            <class name="testCases.Register.TC_RF_013"/>
+            <class name="testCases.Register.TC_RF_020"/>
+            <class name="testCases.Register.TC_RF_021"/>
+            <class name="testCases.Register.TC_RF_023"/>
+            <class name="testCases.Register.TC_RF_024"/>
+            <class name="testCases.Register.TC_RF_025"/>
         </classes>
     </test>
     <test verbose="2" preserve-order="true"
@@ -17,7 +33,23 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="edge"/>
         <classes>
-            <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.Register.TC_RF_003"/>
+            <class name="testCases.Register.TC_RF_004"/>
+            <class name="testCases.Register.TC_RF_005"/>
+            <class name="testCases.Register.TC_RF_006"/>
+            <class name="testCases.Register.TC_RF_007"/>
+            <class name="testCases.Register.TC_RF_008"/>
+            <class name="testCases.Register.TC_RF_009"/>
+            <class name="testCases.Register.TC_RF_009"/>
+            <class name="testCases.Register.TC_RF_010"/>
+            <class name="testCases.Register.TC_RF_011"/>
+            <class name="testCases.Register.TC_RF_012"/>
+            <class name="testCases.Register.TC_RF_013"/>
+            <class name="testCases.Register.TC_RF_020"/>
+            <class name="testCases.Register.TC_RF_021"/>
+            <class name="testCases.Register.TC_RF_023"/>
+            <class name="testCases.Register.TC_RF_024"/>
+            <class name="testCases.Register.TC_RF_025"/>
         </classes>
     </test>
     <test verbose="2" preserve-order="true"
@@ -25,7 +57,23 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="testCases.TC_001_AccountRegistarionTest"/>
+            <class name="testCases.Register.TC_RF_003"/>
+            <class name="testCases.Register.TC_RF_004"/>
+            <class name="testCases.Register.TC_RF_005"/>
+            <class name="testCases.Register.TC_RF_006"/>
+            <class name="testCases.Register.TC_RF_007"/>
+            <class name="testCases.Register.TC_RF_008"/>
+            <class name="testCases.Register.TC_RF_009"/>
+            <class name="testCases.Register.TC_RF_009"/>
+            <class name="testCases.Register.TC_RF_010"/>
+            <class name="testCases.Register.TC_RF_011"/>
+            <class name="testCases.Register.TC_RF_012"/>
+            <class name="testCases.Register.TC_RF_013"/>
+            <class name="testCases.Register.TC_RF_020"/>
+            <class name="testCases.Register.TC_RF_021"/>
+            <class name="testCases.Register.TC_RF_023"/>
+            <class name="testCases.Register.TC_RF_024"/>
+            <class name="testCases.Register.TC_RF_025"/>
         </classes>
     </test>
 

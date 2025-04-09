@@ -107,7 +107,7 @@ public class ExcelUtility {
         }
 
 
-        public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
+        public void fillGreenColor(String sheetName, int rownum, int colnum) throws IOException
         {
             fi=new FileInputStream(path);
             workbook=new XSSFWorkbook(fi);
@@ -122,6 +122,7 @@ public class ExcelUtility {
             style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 
             cell.setCellStyle(style);
+            fo=new FileOutputStream(path);
             workbook.write(fo);
             workbook.close();
             fi.close();
@@ -143,6 +144,7 @@ public class ExcelUtility {
             style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 
             cell.setCellStyle(style);
+            fo=new FileOutputStream(path);
             workbook.write(fo);
             workbook.close();
             fi.close();

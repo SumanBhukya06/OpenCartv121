@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class AccountRegistrationPage extends BasePage {
 
     //Constructor invoke
@@ -100,6 +102,39 @@ public class AccountRegistrationPage extends BasePage {
 
     @FindBy(xpath = "//input[@type='submit']")
     WebElement BtnContinue1;
+
+    //privacy policy check box danger text
+    @FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+    WebElement privacy_policy_text_danger;
+
+    //privacy policy hyper link
+    @FindBy(xpath = "//b[normalize-space()='Privacy Policy']")
+    WebElement privacy_policy_link;
+
+    //policy link pop-up
+    @FindBy(xpath = "//div[@id='modal-agree']//button")
+    WebElement privacy_policy_popup;
+
+    //right col login link
+    @FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Login']")
+    WebElement right_col_login_button;
+
+    @FindBy(xpath = "//div[@class='list-group']//a")
+    List<WebElement> right_col_list;
+
+    //password confirm message
+    @FindBy(xpath = "//div[contains(text(),'Password confirmation does not match password!')]")
+    WebElement password_confirm_displayed;
+
+    //bread crumbs
+    @FindBy(xpath = "//a[normalize-space()='Account']")
+    WebElement isAccountBreadCrumbDisplayed;
+
+    @FindBy(xpath = "//ul[@class='breadcrumb']//a[normalize-space()='Register']")
+    WebElement isRegisterBreadCrumbDisplayed;
+
+    @FindBy(xpath = "//ul[@class='breadcrumb']//li")
+    List<WebElement> breadCrumbList;
 
     //Action Methods
     public void setTxtFirstName(String fname) {
@@ -221,5 +256,39 @@ public class AccountRegistrationPage extends BasePage {
     }
     public WebElement BtnContinue1(){
         return BtnContinue1;
+    }
+    //privacy policy checked or not
+    public boolean isPrivacyPolicyChecked(){
+        return clkAgree.isEnabled();
+    }
+
+    //privacy policy text danger
+    public String isPrivacyPolicyTextDangerVisible(){
+        return privacy_policy_text_danger.getText();
+    }
+
+    //pp link
+    public void setPrivacy_policy_link(){
+         privacy_policy_link.click();
+    }
+
+    public WebElement setPrivacyPolicyLinkWE(){
+        return privacy_policy_link;
+    }
+
+    public void setPrivacy_policy_popup(){
+        privacy_policy_popup.click();
+    }
+
+    public List<WebElement> setRightColText(){
+        return right_col_list;
+    }
+
+    public boolean isPasswordConfirmMessageDisplayed(){
+        return password_confirm_displayed.isDisplayed();
+    }
+
+    public List<WebElement> isBreadCrumbVisible(){
+        return breadCrumbList;
     }
 }

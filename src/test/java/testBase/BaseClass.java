@@ -27,6 +27,7 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Parameters;
+import utilities.ExcelUtility;
 
 public class BaseClass {
     /*
@@ -134,4 +135,5 @@ public class BaseClass {
         return targetFilePath;
 
     }
+
 }
